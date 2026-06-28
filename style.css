@@ -1,0 +1,111 @@
+/* Reset */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+/* Body */
+
+body{
+
+    background:#060A2A;
+
+    color:white;
+
+    font-family:Poppins, sans-serif;
+
+    overflow-x:hidden;
+
+}
+
+/* Section */
+
+section{
+
+    width:100%;
+
+    min-height:100vh;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    flex-direction:column;
+
+    text-align:center;
+
+    padding:50px;
+
+}
+
+/* Heading */
+
+h1{
+
+    font-size:60px;
+
+    margin-bottom:20px;
+
+    color:#FF5DA2;
+
+}
+
+/* Sub Heading */
+
+h2{
+
+    font-size:30px;
+
+    margin-bottom:20px;
+
+}
+
+/* Paragraph */
+
+p{
+
+    font-size:22px;
+
+    width:70%;
+
+    line-height:40px;
+
+}
+
+/* Button */
+
+button{
+
+    margin-top:40px;
+
+    padding:18px 45px;
+
+    border:none;
+
+    border-radius:40px;
+
+    background:#FF5DA2;
+
+    color:white;
+
+    font-size:22px;
+
+    cursor:pointer;
+
+    transition:.4s;
+
+}
+
+button:hover{
+
+    background:white;
+
+    color:#FF5DA2;
+
+    transform:scale(1.1);
+
+}
